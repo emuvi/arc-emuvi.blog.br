@@ -1,4 +1,3 @@
-# Blog of Éverton M. Vieira
-## everton-muvi.blogspot.com
+# Éverton M. Vieira Blog
 
-Automagic program to publish this blog.
+This blog is build with the Zola static site generator and published on http://emuvi.blog.br
