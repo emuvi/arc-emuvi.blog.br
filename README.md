@@ -1,3 +1,3 @@
-# Éverton M. Vieira Blog
+# Éverton M. Vieira - Knowledge Blog
 
-This blog is build with the Zola static site generator and published on http://emuvi.blog.br
+This knowledge blog is build with Zion and published on http://emuvi.blog.br
