@@ -1,3 +1,5 @@
-# Éverton M. Vieira - Knowledge Blog
+# Éverton M. Vieira - Knowledge Base
 
-This knowledge blog is build with Zion and published on http://emuvi.blog.br
+http://www.emuvi.blog.br is a website of Éverton M. Vieira with his knowledge base.
+
+This knowledge base is build with Zion.
