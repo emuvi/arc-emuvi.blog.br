@@ -1,6 +1,5 @@
 +++
-title = "Linux"
-weight = 1
+tags = Linux, Ubuntu, Let's Encript, Certbot
 +++
 
 ## Let's Encript
@@ -11,9 +10,3 @@ weight = 1
 sudo apt install certbot python3-certbot-dns-rfc2136
 sudo certbot certonly --manual --preferred-challenges dns
 ```
-
-### Onde fica no Ubuntu os metadados das aplicações
-
-´´´
-/usr/share/applications
-´´´
