@@ -1,0 +1,5 @@
+[weblinks]
+>-i https://www.w3schools.com/cssref/
+
+[longwrite]
+>-t 1 -f aaaa -l $weblinks.4
