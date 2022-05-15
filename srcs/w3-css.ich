@@ -1,6 +1,0 @@
-[weblinks]
---input=https://www.w3schools.com/cssref/
---only-lowers=
-
-[webloads]
---input=$weblinks.eachOutput
