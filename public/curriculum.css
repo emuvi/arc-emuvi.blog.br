@@ -1,0 +1,258 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 14px;
+  color: #180027;
+  padding: 0px;
+}
+
+a {
+  color: #540045;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #810072;
+  text-decoration: underline;
+}
+
+a.top-link {
+  color: #7c0006;
+  text-decoration: underline;
+}
+
+a.top-link:hover {
+  color: #a70008;
+  text-decoration: underline;
+}
+
+button {
+  padding: 2px;
+  margin: 2px;
+  color: #180027;
+  border: 1px solid #180027;
+  background-color: transparent;
+}
+
+#divBody {
+  margin: auto;
+  width: 100%;
+  background-color: white;
+}
+
+#divLittleTopBar {
+  height: 9px;
+  background-color: #5e5e5e;
+}
+
+#divContent {
+  padding: 36px 36px 18px 36px;
+  flex: 1;
+}
+
+.divRowContent {
+  padding: 27px 0px 9px 0px;
+  border-bottom: 1px solid #dadada;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.divColFirst {
+  width: 110px;
+}
+
+.divRowFirstTitle {
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 18px;
+}
+
+.divRowPicture {
+  text-align: right;
+  padding: 0px 12px 0px 0px;
+}
+
+.divColTitle {
+  margin-top: 0px;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.divRowName {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 0.07em;
+}
+
+.divRowClass {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 7px;
+  letter-spacing: 0.07em;
+}
+
+@media only screen and (max-width: 650px) {
+  .divRowName {
+    font-size: 27px;
+  }
+
+  .divRowClass {
+    font-size: 16px;
+  }
+
+  .divColTitle {
+    min-width: 330px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .divRowName {
+    font-size: 21px;
+  }
+
+  .divRowClass {
+    font-size: 14px;
+  }
+
+  .divColTitle {
+    min-width: 270px;
+  }
+}
+
+.divRowName div {
+  display: inline-block;
+  padding: 3px 9px;
+  border-bottom: 1px solid black;
+}
+
+.divColContact {
+  margin-top: 12px;
+  width: 210px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.divColContact div {
+  margin: 3px 0px;
+}
+
+.divColExpand {
+  flex: 1;
+}
+
+.divColFluid {
+  padding-right: 36px;
+  min-width: 270px;
+}
+
+@media only screen and (max-width: 510px) {
+  .divColFluid {
+    min-width: 180px;
+  }
+}
+
+.divColStone {
+  min-width: 130px;
+}
+
+.divColStoneLined {
+  min-width: fit-content;
+}
+
+.divColText {
+  padding-right: 36px;
+  padding-bottom: 18px;
+}
+
+.divItemTitle {
+  font-size: 16px;
+  padding-bottom: 9px;
+  margin-bottom: 9px;
+  border-bottom: 1px solid #dadada;
+  font-style: italic;
+}
+
+.divItemTitleFirst {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.divItemTitleSecond {
+  display: inline-block;
+  font-size: small;
+}
+
+.divItemContent {
+  margin-bottom: 36px;
+}
+
+.divRowLined {
+  border-bottom: 1px solid #dadada;
+  padding: 5px 0px;
+}
+
+.divRowLinedLast {
+  padding: 5px 0px 18px 0px;
+}
+
+#divNavBar {
+  text-align: right;
+  margin-bottom: 9px;
+}
+
+h1 {
+  font-size: 33px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+h2 {
+  font-size: 27px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 14px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 9px;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 21px;
+}
+
+.imgFloatRight {
+  float: right;
+  margin: 14px;
+  border: solid 1px rgb(54, 54, 54);
+}
+
+.readLink {
+  cursor: pointer;
+  margin-left: 9px;
+}
+
+.readMore {
+  display: none;
+}
