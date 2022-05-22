@@ -231,6 +231,7 @@ h1 {
   font-size: 33px;
   font-weight: bold;
   margin-bottom: 18px;
+  clear: both;
 }
 
 h2 {
@@ -238,12 +239,14 @@ h2 {
   font-weight: bold;
   font-style: italic;
   margin-bottom: 14px;
+  clear: both;
 }
 
 h3 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 9px;
+  clear: both;
 }
 
 h4,
@@ -251,6 +254,7 @@ h5,
 h6 {
   font-size: 18px;
   font-weight: bold;
+  clear: both;
 }
 
 p {
